@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import './App.css'
 import Header from './components/Header'
+import Resume from './components/Resume'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Sidenav/>
       <Header/>
+      <Resume/>
     </div>
   )
 }
