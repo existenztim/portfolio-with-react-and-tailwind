@@ -23,7 +23,7 @@ const Sidenav = () => {
               <span className ="pl-4">Home</span>
             </a>
             <a 
-              href="#resumé" 
+              href="#resume" 
               className="w-[75%] flex justify-center items-center rounded-full bg-gray-100 shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
               
               <AiOutlineSolution size ={20}/>
@@ -59,7 +59,7 @@ const Sidenav = () => {
             <AiOutlineHome size ={25}/>
           </a>
           <a 
-            href="#resumé" 
+            href="#resume" 
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300">
             <AiOutlineSolution size ={25}/>
           </a>
