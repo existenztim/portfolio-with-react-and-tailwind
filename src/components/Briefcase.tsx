@@ -43,7 +43,7 @@ const portfolioData:portfolio[] = [
         id: "4"
     }
 ];
-const Portfolio = () => {
+const Briefcase = () => {
   return (
     <section className="bg-gray-200 pb-8">
         <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -81,4 +81,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Briefcase
