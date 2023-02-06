@@ -1,5 +1,4 @@
 import React from 'react'
-import quant from '../assets/quant.jpg'
 
 interface portfolio {
     imgLink:string,
@@ -44,7 +43,7 @@ const portfolioData:portfolio[] = [
         id: "4"
     }
 ];
-const portfolio = () => {
+const Portfolio = () => {
   return (
     <section className="bg-gray-200">
         <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -80,4 +79,4 @@ const portfolio = () => {
   )
 }
 
-export default portfolio
+export default Portfolio

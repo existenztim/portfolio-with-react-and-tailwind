@@ -12,7 +12,7 @@ const resumeData:resume[] = [
         year: "Oct 2022 - jun 2024",
         company: "Medieinstitutet Stockholm",
         title: "Front End Developer",
-        details: "I study a 2 year program and I will have my exam by june 2024, I highly recomend to read my CV to get more details about my education.",
+        details: "I study a 2 year program and I will have my exam by june 2024, I highly recommend to read my CV or contact me in order to get more details about my education.",
         id:"1"
     },
     {
@@ -32,7 +32,7 @@ const resumeData:resume[] = [
 ];
 const Resume = () => {
   return (
-    <section className="w-screen bg-gray-100">
+    <section className=" bg-gray-100">
         <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
             <h3 className="text-4xl font-bold text-center text-gray-900 pb-16">Latest occupations</h3>
             {resumeData.map(occupation => (
