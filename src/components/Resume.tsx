@@ -32,9 +32,9 @@ const resumeData:resume[] = [
 ];
 const Resume = () => {
   return (
-    <section className=" bg-gray-100">
+    <section className=" bg-gray-100 dark:bg-gray-800">
         <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-            <h3 className="text-4xl font-bold text-center text-gray-900 pb-16">Latest occupations</h3>
+            <h3 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Latest occupations</h3>
         {resumeData.map(occupation => (
         <ol key={occupation.id} className="flex flex-col md:flex-row relative border-l border-stone-300">
             <li className="mb-10 ml-4">
@@ -42,11 +42,11 @@ const Resume = () => {
              
                 <p className="flex flex-wrap gap-4 flex-col  justify-start text-xs">
                     <span className="inline-block px-2 py-1 font-semibold text-white bg-gray-900 w-32 rounded-md">{occupation.year}</span>
-                    <span className="text-lg font-semibold text-slate-600">{occupation.company}</span>
-                    <span className="my-1 text-sm font-normal leading-none text-stone-500">{occupation.title}</span>
+                    <span className="text-lg font-semibold text-slate-600 dark:text-slate-300">{occupation.company}</span>
+                    <span className="my-1 text-sm font-normal leading-none text-stone-500 dark:text-stone-300">{occupation.title}</span>
                 </p>
 
-                <p className="my-2 text-base font-normal text-stone-500">{occupation.details}</p>
+                <p className="my-2 text-base font-normal text-stone-500 dark:text-slate-300">{occupation.details}</p>
             </li>
         </ol>
             ))}

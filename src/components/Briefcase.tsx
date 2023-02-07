@@ -45,10 +45,10 @@ const portfolioData:portfolio[] = [
 ];
 const Briefcase = () => {
   return (
-    <section className="bg-gray-200 pb-8">
+    <section className="bg-gray-200 pb-8 dark:bg-gray-900">
         <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-            <h3 className="text-4xl font-bold text-center text-gray-900 pb-16">Projects</h3>
-            <p className="text-center py-8">
+            <h3 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Projects</h3>
+            <p className="text-center py-8 dark:text-gray-200">
                 The projects listed here are the only projects I have created that have a working
                 demonstration. To see a full list of my work visit my github page.
                 Content will be added on a regular basis. 
@@ -56,9 +56,10 @@ const Briefcase = () => {
             <div className="grid sm:grid-cols-2 gap-12">
             {portfolioData.map(project => (
                 // group attribute makes the attributes after to apply to the child elements aswell
-               <div key={project.id} className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-gray-900"> 
+               <div key={project.id} className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-gray-900"> 
                     <img className="rounded-xl group-hover:opacity-10 ease-in duration-300" 
-                        src={window.location.origin + project.imgLink} alt={project.alt}/>
+                        src={window.location.origin + project.imgLink} alt={project.alt} width={450} height={350} loading="lazy">
+                    </img>
                     
                     <div className="hidden group-hover:block absolute m-0">
                         <h3 className="text-2xl font-bold text-white tracking-wider text-center">
