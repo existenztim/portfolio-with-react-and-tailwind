@@ -12,7 +12,7 @@ const resumeData:resume[] = [
         year: "Oct 2022 - jun 2024",
         company: "Medieinstitutet Stockholm",
         title: "Front End Developer",
-        details: "I study a 2 year program and I will have my exam by june 2024, I highly recommend to read my CV or contact me in order to get more details about my education.",
+        details: "I study a 2-year program and I will have my exam by June 2024, I highly recommend to read my CV or contact me in order to get more details about my education.",
         id:"1"
     },
     {
@@ -26,7 +26,7 @@ const resumeData:resume[] = [
         year: "Jun 2012 - jan 2014",
         company: "Lantmännen Cerealia Ab",
         title: "Process Operator",
-        details: "As a process operator I had a crucial role in the production flow at the Lantmännen Factory in Järna. I was the link between the team that produced the products and the team that was in control of the packaging. I did this by making sure there was always a constant flow of materials on every line and so every compartment could do there tasks simultaneously even though they where at differents steps in the whole productions process. This is something I hope I can apply in the world of web development aswell, where it's crucial to work agile to finish things before dealine.",
+        details: "As a process operator, I had a crucial role in the production flow at the Lantmännen Factory in Järna. I was the link between the team that produced the products and the team that was in control of the packaging. I did this by making sure there was always a constant flow of materials on every line so every compartment could do their tasks simultaneously even though they where at differents steps in the whole production process. This is something I hope I can apply in the world of web development as well, where it's crucial to work agile to finish things before the dealine.",
         id:"3"
     }
 ];
@@ -35,7 +35,7 @@ const Resume = () => {
     <section className=" bg-gray-100">
         <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
             <h3 className="text-4xl font-bold text-center text-gray-900 pb-16">Latest occupations</h3>
-            {resumeData.map(occupation => (
+        {resumeData.map(occupation => (
         <ol key={occupation.id} className="flex flex-col md:flex-row relative border-l border-stone-300">
             <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-stone-300 rounded-full mt-1.5 -left-1.5 border-white" />
