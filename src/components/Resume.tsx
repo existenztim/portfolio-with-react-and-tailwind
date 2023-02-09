@@ -37,7 +37,7 @@ const Resume = () => {
   return (
     <section className=" bg-gray-100 dark:bg-gray-800">
       <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16" data-aos="fade" data-aos-duration="1000">
-        <h3 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Resumé</h3>
+        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Resumé</h3>
         <p className="text-center py-8 dark:text-gray-200">Below you will find my most recent occupations.</p>
         {resumeData.map(occupation => (
           <ol
@@ -50,11 +50,11 @@ const Resume = () => {
               <div className="absolute w-3 h-3 bg-stone-300 rounded-full mt-1.5 -left-1.5 border-white" />
 
               <p className="flex flex-wrap gap-4 flex-col  justify-start text-xs">
-                <span className="inline-block px-2 py-1 font-semibold text-white bg-gray-900 w-32 rounded-md">
+                <span className="inline-block px-2 py-1 font-semibold  text-white bg-gray-900 w-32 rounded-md">
                   {occupation.year}
                 </span>
                 <span className="text-lg font-semibold text-slate-600 dark:text-slate-300">{occupation.company}</span>
-                <span className="my-1 text-sm font-normal leading-none text-stone-500 dark:text-stone-300">
+                <span className="my-1 text-sm font-normal leading-none dark:text-orange-600">
                   {occupation.title}
                 </span>
               </p>

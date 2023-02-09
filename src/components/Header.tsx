@@ -3,16 +3,16 @@ import { TypeAnimation } from 'react-type-animation';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 const Header = () => {
   return (
-    <div id="main">
+    <section id="main">
       <img
-        className="w-full h-screen object-cover"
-        src={window.location.origin + '/img/herobg.webp'}
+        className="w-full h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-700 via-orange-300 to-rose-800"
+        src={window.location.origin + '/img/laptop2.svg'}
         alt="screen filled with blurry HTML code"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/30 dark:bg-black/30">
+      <div className="w-full h-screen absolute top-0 left-0 ">
         <div className="max-w-[700] m-auto h-full w-full flex flex-col justify-center :items-start items-center">
-          <h1 className="sm:text-7xl text-4xl font-bold text-gray-800 dark:text-gray-200">Tim Sundell</h1>
-          <h2 className="flex sm:text-3xl text-xl py-4 px-2 my-2 text-gray-800 bg-gray-200 dark:text-white rounded-lg dark:bg-gray-800">
+          <h1 className="sm:text-7xl text-4xl font-bold text-orange-600 ">&lt;Tim Sundell&lt;/&gt;</h1>
+          <h2 className="flex sm:text-3xl text-lg py-4 px-2 my-2 text-gray-800 bg-gray-200 dark:text-white rounded-lg dark:bg-gray-800">
             <TypeAnimation
               sequence={[
                 'Aspiring front end developer', // Types 'One'
@@ -39,7 +39,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

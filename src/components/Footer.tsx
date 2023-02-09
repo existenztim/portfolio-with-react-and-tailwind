@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <section className="bg-gray-300 dark:bg-black" id="get-in-touch">
-      <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16" data-aos="fade" data-aos-duration="1000">
-        <h3 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Get in touch</h3>
+    <section className="bg-gray-300 dark:bg-neutral-900" id="get-in-touch">
+      <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Get in touch</h3>
         <div className="flex justify-center p-6">
           <a
             href="mailto:tim920129@hotmail.com"

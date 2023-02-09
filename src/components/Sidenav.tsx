@@ -74,35 +74,35 @@ const Sidenav = () => {
           <a
             href="#main"
             aria-label="Go to the header section"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
+            className="border-2 border-gray-700 dark:border-orange-600 rounded-full shadow-lg bg-gray-100 dark:bg-gray-700 text-orange-600 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
           >
             <AiOutlineHome size={25} />
           </a>
           <a
             href="#about"
             aria-label="Go to the about me section"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
+            className="border-2 border-gray-700 dark:border-orange-600 rounded-full shadow-lg bg-gray-100 dark:bg-gray-700 text-orange-600 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
           >
             <AiOutlineSolution size={25} />
           </a>
           <a
             href="#resume"
             aria-label="Go to the resumé section"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
+            className="border-2 border-gray-700 dark:border-orange-600 rounded-full shadow-lg bg-gray-100 dark:bg-gray-700 text-orange-600 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
           >
             <MdWorkOutline size={25} />
           </a>
           <a
             href="#projects"
             aria-label="Go to the projects section"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
+            className="border-2 border-gray-700 dark:border-orange-600 rounded-full shadow-lg bg-gray-100 dark:bg-gray-700 text-orange-600 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
           >
             <AiOutlineTable size={25} />
           </a>
           <a
             href="#get-in-touch"
             aria-label="Go to the contact section"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
+            className="border-2 border-gray-700 dark:border-orange-600 rounded-full shadow-lg bg-gray-100 dark:bg-gray-700 text-orange-600 shadow-gray-400 dark:shadow-gray-700 m-2 p-4 cursor-pointer hover:scale-110 hover:bg-gray-300 ease-in duration-300"
           >
             <AiOutlineMail size={25} />
           </a>
