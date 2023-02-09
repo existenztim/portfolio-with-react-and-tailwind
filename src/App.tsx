@@ -6,9 +6,10 @@ import Resume from './components/Resume'
 import About from './components/About'
 import Footer from './components/Footer'
 import Briefcase from './components/Briefcase'
+import AOS from 'aos';
 
 function App() {
-
+  AOS.init({mirror: true});
   return (
     <div className="App">
       <Sidenav/>
