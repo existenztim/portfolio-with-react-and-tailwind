@@ -1,9 +1,11 @@
 # Portfolio - Tim Sundell
 
 My portfolio. It will constantly be updated. 
+## Ligthouse report
+
 
 ## Demo
-
+![Alt text](https://github.com/existenztim/Portfolio-with-react-and-tailwind/blob/main/validation/report.jpg "Optional title")
 [Actual site](https://timsundell.io/)
 
 ## Teck stack :
