@@ -4,10 +4,10 @@ const About = () => {
   return (
     <section className="bg-gray-50 dark:bg-gray-700">
       <div id="about" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16" data-aos="fade" data-aos-duration="1000">
-        <h3 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">About me</h3>
+        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">About me</h3>
         <div className="flex flex-col xl:flex-row xl:gap-20">
           <div className="xl:w-1/2" data-aos="zoom-in">
-            <h4 className="text-3xl font-bold text-center text-gray-900 dark:text-gray-200">Who am I?</h4>
+            <h4 className="first-letter:text-orange-600 text-3xl font-bold text-center text-gray-900 dark:text-gray-200">Who am I?</h4>
             <div className="relative max-w-[261px] mt-8 m-auto border-4 p-20 border-gray-900 rounded-xl h-[294px] bg-gray-100 dark:bg-gray-700 shadow-lg shadow-gray-400 dark:shadow-gray-600">
               <img
                 className="rounded-xl absolute top-[45%] left-[45%] translate-x-[-50%]  translate-y-[-50%] bg-gray-100 dark:bg-gray-700 shadow-lg shadow-gray-400 dark:shadow-gray-600 hover:top-[50%] hover:left-[50%] ease-in duration-200"
@@ -25,7 +25,7 @@ const About = () => {
             </p>
           </div>
           <div className="xl:w-1/2" data-aos="zoom-in">
-            <h4 className="text-3xl font-bold text-center text-gray-900 dark:text-gray-200">What I can do for you.</h4>
+            <h4 className="first-letter:text-orange-600 text-3xl font-bold text-center text-gray-900 dark:text-gray-200">What I can do for you.</h4>
             <p className="py-8 dark:text-gray-200">
               After the summer of 2023, I will have my first internship, that's where you come into the picture! Below
               you will see a list of various skills I will either master completely or have a good understanding of by

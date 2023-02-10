@@ -47,9 +47,9 @@ const Briefcase = () => {
   return (
     <section className="bg-gray-200 pb-8 dark:bg-gray-900 ">
       <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16" data-aos="fade" data-aos-duration="1000">
-        <h3 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Projects</h3>
+        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Projects</h3>
         <p className="text-center py-8 dark:text-gray-200">
-          The projects listed here are the only projects I have created that have a working demonstration. To see a full
+          The projects listed here have working demonstrations. To see a full
           list of my work visit my github page. Content will be added on a regular basis.
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
