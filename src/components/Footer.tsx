@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <section className="bg-gray-300 dark:bg-neutral-900" id="get-in-touch">
       <div id="resume" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Get in touch</h3>
+        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">
+          Get in touch
+        </h3>
         <div className="flex justify-center p-6">
           <a
             href="mailto:tim920129@hotmail.com"
@@ -15,7 +17,7 @@ const Footer = () => {
             aria-label="Write me an email"
             className="px-6"
           >
-            <AiFillMail className="cursor-pointer dark:text-gray-200 hover:scale-125 ease-in duration-200" size={20} />
+            <AiFillMail className="cursor-pointer dark:text-gray-200 hover:scale-125 ease-in duration-200" size={30} />
           </a>
           <a
             href="https://github.com/existenztim"
@@ -24,7 +26,7 @@ const Footer = () => {
             aria-label="Visit my github page"
             className="px-6"
           >
-            <FaGithub className="cursor-pointer dark:text-gray-200 hover:scale-125 ease-in duration-200" size={20} />
+            <FaGithub className="cursor-pointer dark:text-gray-200 hover:scale-125 ease-in duration-200" size={30} />
           </a>
           <a
             href="https://www.linkedin.com/in/tim-sundell-87b644252/"
@@ -33,7 +35,7 @@ const Footer = () => {
             aria-label="Visit my linkedIn page"
             className="px-6"
           >
-            <FaLinkedin className="cursor-pointer dark:text-gray-200 hover:scale-125 ease-in duration-200" size={20} />
+            <FaLinkedin className="cursor-pointer dark:text-gray-200 hover:scale-125 ease-in duration-200" size={30} />
           </a>
           <a
             href="https://goo.gl/maps/8sr45aLpEsRrRtyM7"
@@ -44,11 +46,21 @@ const Footer = () => {
           >
             <FaMapMarkerAlt
               className="cursor-pointer dark:text-gray-200 hover:scale-125 ease-in duration-200"
-              size={20}
+              size={30}
             />
           </a>
         </div>
-        <p className="text-center text-lg font-semibold text-slate-600 dark:text-slate-300">tim920129@hotmail.com</p>
+        <p className="text-center text-lg font-semibold text-slate-600 dark:text-slate-300">
+          <a
+            href="mailto:tim920129@hotmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Write me an email"
+            className="px-6"
+          >
+            tim920129@hotmail.com
+          </a>
+        </p>
       </div>
     </section>
   );
