@@ -39,7 +39,7 @@ const Header = () => {
             />
           </h2>
           <a
-            className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full"
+            className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full border-2"
             href="#get-in-touch"
             aria-label="Go to the contact section"
           >

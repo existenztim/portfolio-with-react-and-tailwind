@@ -45,7 +45,7 @@ const About = () => {
                 <li className="text-center py-2">HTML5</li>
                 <li className="text-center py-2">CSS/SCSS</li>
                 <li className="text-center py-2">Tailwind</li>
-                <li className="text-center py-2">Jest</li>
+                <li className="text-center py-2">Jest/Cypress</li>
               </ol>
             </div>
           </div>
