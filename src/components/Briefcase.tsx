@@ -10,12 +10,29 @@ interface portfolio {
 }
 const portfolioData: portfolio[] = [
   {
+    imgLink: '/img/tick.webp',
+    alt: 'Desktop screenshot of tick-tack-toe project',
+    title: 'Tick-tack-toe',
+    details: 'TypeScript, HTML, SASS, Vue.',
+    demoLink: 'https:/deluxe-pothos-c81544.netlify.app',
+    id: '1',
+  },
+
+  {
+    imgLink: '/img/pokedex.webp',
+    alt: 'Desktop screenshot of tick-tack-toe project',
+    title: 'Tick-tack-toe',
+    details: 'TypeScript, HTML, SASS, Vue.',
+    demoLink: 'https:/deluxe-pothos-c81544.netlify.app',
+    id: '2',
+  },
+  {
     imgLink: '/img/quant.webp',
     alt: 'Desktop screenshot of firefly project',
     title: 'Quant Firefly',
     details: 'JavaScript, HTML, SCSS, GSAP, Prettier, ESLint.',
     demoLink: 'https://existenztim.github.io/Graphical-design-tools-coding-a-design/',
-    id: '1',
+    id: '3',
   },
   {
     imgLink: '/img/gottfrid.webp',
@@ -23,7 +40,7 @@ const portfolioData: portfolio[] = [
     title: 'Gottfrids Donutshop',
     details: 'JavaScript, HTML, SCSS, GSAP, Prettier, ESLint.',
     demoLink: 'https://medieinstitutet.github.io/fed22d-js-grundkurs-gruppuppgift-webbshop-team-n00bless/',
-    id: '2',
+    id: '4',
   },
   {
     imgLink: '/img/simpsons.webp',
@@ -31,7 +48,7 @@ const portfolioData: portfolio[] = [
     title: 'Simpsons Cluedo',
     details: 'TypeScript, Prettier, ESLint HTML, SCSS.',
     demoLink: 'https://existenztim.github.io/Cluedo-with-localstorage-highscore/',
-    id: '3',
+    id: '5',
   },
 
   {
@@ -40,17 +57,19 @@ const portfolioData: portfolio[] = [
     title: 'SVG With GreenSock-Animation',
     details: 'JavaScript, HTML, GSAP.',
     demoLink: 'https://existenztim.github.io/SVG-with-GreenSock-Animation/',
-    id: '4',
+    id: '6',
   },
 ];
 const Briefcase = () => {
   return (
     <section className="bg-gray-200 pb-8 dark:bg-gray-900 ">
       <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16" data-aos="fade" data-aos-duration="1000">
-        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">Projects</h3>
+        <h3 className="first-letter:text-orange-600 text-4xl font-bold text-center text-gray-900 dark:text-gray-200 pb-16">
+          Projects
+        </h3>
         <p className="text-center py-8 dark:text-gray-200">
-          The projects listed here have working demonstrations. To see a full
-          list of my work visit my github page. Content will be added on a regular basis.
+          The projects listed here have working demonstrations. To see a full list of my work visit my github page.
+          Content will be added on a regular basis.
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
           {portfolioData.map(project => (
