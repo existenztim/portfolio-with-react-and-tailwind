@@ -20,9 +20,9 @@ const portfolioData: portfolio[] = [
 
   {
     imgLink: '/img/pokedex.webp',
-    alt: 'Desktop screenshot of tick-tack-toe project',
-    title: 'Tick-tack-toe',
-    details: 'TypeScript, HTML, SASS, Vue.',
+    alt: 'Desktop screenshot of pokédex project',
+    title: 'Pokédex',
+    details: 'TypeScript, HTML, SASS, Vue, Prettier.',
     demoLink: 'https:/deluxe-pothos-c81544.netlify.app',
     id: '2',
   },
