@@ -16,7 +16,7 @@ const Sidenav = () => {
       >
         <AiOutlineMenu className="dark:text-white" size={50} onClick={toggleNav} />
       </button>
-      {nav ? ( //open state
+      {nav ? ( 
         <div className="flex flex-col fixed w-full h-screen bg-white/90 dark:bg-black/70 justify-center items-center z-20">
           <a
             onClick={toggleNav}
